@@ -1,0 +1,11 @@
+* {
+  background-color: blueviolet;
+}
+
+h1,
+h2,
+h3 {
+  color: yellow;
+  background-color: black;
+  font-size: smaller;
+}
