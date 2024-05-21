@@ -9,11 +9,25 @@
         font-size: 16px;
         color: rgb(0, 255, 13);
       }
+
+      .jokes > p:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
       a + button {
         background-color: rebeccapurple;
       }
+      section button:hover {
+        background-color: rgb(0, 255, 13);
+      }
+
       input[type="text"] {
         color: red;
+      }
+
+      section:nth-of-type(2n) {
+        background-color: grey;
       }
     </style>
   </head>
@@ -23,6 +37,27 @@
     <input type="password" name="" id="" />
     <button>search</button>
   </body>
+  <hr />
+  <section class="jokes">
+    <h3>udang kalu dari Cirebon namanya udang rebon Kalu dari Inggris? Udang Robin!</h3>
+    <p>Dipublish oleh: <span>John</span></p>
+    <div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus explicabo ullam et! Ad commodi, unde eos dolor libero tenetur ipsam accusantium, maiores laborum explicabo amet. Nobis, corrupti. Cumque, sequi facilis?</p>
+    </div>
+    <button>Vote +</button>
+  </section>
+  <hr />
+  <section class="jokes">
+    <h3>Alat Masak apa yang suka kesel? Paan cii...!</h3>
+    <p>Dipublish oleh: <span>John</span></p>
+    <button>Vote +</button>
+  </section>
+  <hr />
+  <section class="jokes">
+    <h3>Gula, gula apa yang bukan merah? Gula Aren't!</h3>
+    <p>Dipublish oleh: <span>John</span></p>
+    <button>Vote +</button>
+  </section>
   <hr />
   <section class="jokes">
     <h3>udang kalu dari Cirebon namanya udang rebon Kalu dari Inggris? Udang Robin!</h3>
