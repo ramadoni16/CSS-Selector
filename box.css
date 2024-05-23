@@ -16,3 +16,12 @@ div {
   border-bottom-color: aqua;
   border-right-color: blue;
 }
+
+div {
+  /* padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px; */
+  /* padding: 10px 40px; */
+  padding: 10px 100px 40px 5px;
+}
