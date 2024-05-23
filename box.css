@@ -1,6 +1,18 @@
 div {
   width: 300px;
-  border: 4px solid greenyellow;
+  /* border: 4px solid greenyellow; */
   padding: 50px;
   margin: 20px;
+}
+
+div {
+  /* border-style: dashed; */
+  border-style: dotted dashed solid double;
+  /* border-top-style: double;
+  border-right-style: groove;
+  border-bottom-style: ridge;
+  border-left-style: inset; */
+  border-width: 5px 10px 15px 20px;
+  border-bottom-color: aqua;
+  border-right-color: blue;
 }
